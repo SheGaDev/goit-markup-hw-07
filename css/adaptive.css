@@ -113,10 +113,13 @@
     form > p.t-s-l {
         margin-bottom: 0;
     }
+    .modal {
+        max-width: 392px;
+    }
 }
 @media screen and (max-width: 480px){
     .modal {
-        max-width: 392px;
+        min-width: 90%;
     }
 }
 @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
