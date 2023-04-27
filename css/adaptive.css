@@ -58,7 +58,7 @@
         text-transform: capitalize;
         color: var(--pressed-state);
     }
-    .colored {
+    .current {
         color: var(--primary-brand);
     }
     .mobile-menu-items-icons {
@@ -114,12 +114,12 @@
         margin-bottom: 0;
     }
     .modal {
-        max-width: 392px;
+        min-width: 392px;
     }
 }
 @media screen and (max-width: 400px){
     .modal {
-        min-width: 90%;
+        min-width: 95%;
     }
 }
 @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
@@ -285,7 +285,7 @@
         margin-right: 40px;
     }
     .menu-color {
-        color: var(--primary-brand);
+        color: var(--dark);
     }
     .margined-link {
         margin-left: auto;
@@ -561,6 +561,12 @@
     }
     .footer-l div:last-child {
         margin-left: auto;
+    }
+    .div-footer-logo {
+        margin-bottom: 0;
+    }
+    .div-footer-links {
+        margin-bottom: 0;
     }
     .div-dir {
         display: flex;
